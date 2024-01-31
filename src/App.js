@@ -1,13 +1,15 @@
 import React from 'react';
-import MyStyledPDF from './MyStyledPDF';
+import ReactDOM from 'react-dom';
+import Portfolio from './Portfolio';
 
 const App = () => {
   return (
     <div>
-      <h1>Your React App</h1>
-      <MyStyledPDF />
+      <h1>Welcome to my Portfolio</h1>
+      <Portfolio />
     </div>
   );
 };
 
+// ReactDOM.render(<App />, document.getElementById('root'));
 export default App;
